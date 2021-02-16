@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 2px solid #000;
+}
+#container .content-header {
+  width: 100%;
+  height: 100px;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+#container .content-header .content {
+  width: 100%;
+}
+#container .content-header .content-img {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+}
+#container .content-header .content-img .logo {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 50%;
+}
+#container .content-header .content-title {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+#container .content-header .content-title .image-title {
+  width: 50%;
+}
+#container .content-header .content-link {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#container .content-header .content-link .elenco {
+  list-style: none;
+}
+#container .content-header .content-link .elenco .link {
+  font-size: 15px;
+  padding: 5px;
+}
+#container .content-main {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#container .content-main .verdure {
+  width: 30%;
+  margin: 15px;
+}
+#container .content-main .verdure .name {
+  font-size: 30px;
+  color: lightblue;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+#container .content-main .verdure .image {
+  width: 50%;
+  height: 100px;
+}
+#container .content-main .verdure .description {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#container .content-footer {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-image: url(/images/logo.jpg?481024fff3f59efe88d6af46746fce61);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+#container .content-footer .slogan {
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px #000000;
+}
